@@ -4,8 +4,12 @@ public class TestGit1
 {
 	public static void main (String [] args)
 	{
-		System.out.println("----------");
-		System.out.println("Hello, Faf!");
-		System.out.print("----------");
+		void sayHello()
+		{
+			System.out.println("----------");
+			System.out.println("Hello, Faf!");
+			System.out.println("----------");
+		}
+		sayHello();
 	}	
 }
