@@ -14,7 +14,11 @@ git branch 				посмотреть все ветки
 
 git checkuot -b "name_of_branch"	создать и переключится на ветку
 		"name_of_branch"	переключится на ветку
-		"hash_of_commit"	перейти к комимту
+		"hash_of_commit"	перейти к коммиту
 
-		"hash_of_commit" -b "name_of_branch" перейти к комту создав новую ветку
+		"hash_of_commit" -b "name_of_branch" перейти к коммиту создав новую ветку
 
+git revert
+		HEAD 			отменить последний коммит
+		HEAD --no-edit		отменить последний коммит без редактирования
+		"hash_of_commit"	откатить до определенного коммита
