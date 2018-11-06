@@ -4,12 +4,13 @@ public class TestGit1
 {
 	public static void main (String [] args)
 	{
-		void sayHello()
+		private void saySomthing(String s)
 		{
 			System.out.println("----------");
-			System.out.println("Hello, Faf!");
-			System.out.println("----------");
+			System.out.println(this.s+", Faf!");
+			System.out.print("----------");
 		}
-		sayHello();
+		saySomthing(Hello);
+		saySomthing(Goodbye);
 	}	
 }
