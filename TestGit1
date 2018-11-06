@@ -5,10 +5,10 @@ public class TestGit1
 	public static void main (String [] args)
 	{
 
-		private void saySomthing(String s)
+		private void saySomthing(String str)
 		{
 			System.out.println("----------");
-			System.out.println(this.s+", Faf!");
+			System.out.println(str+", Faf!");
 			System.out.print("----------");
 		}
 
