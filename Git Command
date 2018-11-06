@@ -1,0 +1,20 @@
+git add 
+git init 
+git status 
+git remote add origin {url}
+git push -u origin master
+man git
+git commit -m "comment"
+
+git branch 				посмотреть все ветки	
+		"name_of_branch" 	создать ветку
+		-v   			посмотреть последнии коммиты
+		--marged(--no-marged)   посмотреть слитые и не слитые ветки
+		-d "name_of_branch"	удалить ветку
+
+git checkuot -b "name_of_branch"	создать и переключится на ветку
+		"name_of_branch"	переключится на ветку
+		"hash_of_commit"	перейти к комимту
+
+		"hash_of_commit" -b "name_of_branch" перейти к комту создав новую ветку
+
