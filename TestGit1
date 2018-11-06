@@ -10,6 +10,14 @@ public class TestGit1
 			System.out.println("Hello, Faf!");
 			System.out.println("----------");
 		}
+		void sayGoodbye()
+		{
+			System.out.println("----------");
+			System.out.println("Goodbye, Faf!");
+			System.out.println("----------");
+		}
+			
 		sayHello();
+		sayGoodbye();
 	}	
 }
