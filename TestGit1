@@ -16,3 +16,4 @@ public class TestGit1
 		saySomthing(Goodbye);
 	}	
 }
+New change.
