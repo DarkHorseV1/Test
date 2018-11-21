@@ -4,6 +4,8 @@ git status
 git remote add origin {url}
 git push -u origin master
 man git
+
+ls
 git commit -m "comment"
 
 git branch 				посмотреть все ветки	
@@ -22,3 +24,5 @@ git revert
 		HEAD 			отменить последний коммит
 		HEAD --no-edit		отменить последний коммит без редактирования
 		"hash_of_commit"	откатить до определенного коммита
+
+git rebase 	--continue
