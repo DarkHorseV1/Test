@@ -14,15 +14,18 @@ git branch 				посмотреть все ветки
 		--marged(--no-marged)   посмотреть слитые и не слитые ветки
 		-d "name_of_branch"	удалить ветку
 
-git checkuot -b "name_of_branch"	создать и переключится на ветку
+git checkuot 	-b "name_of_branch"	создать и переключится на ветку
 		"name_of_branch"	переключится на ветку
 		"hash_of_commit"	перейти к коммиту
 
 		"hash_of_commit" -b "name_of_branch" перейти к коммиту создав новую ветку
 
-git revert
+git revert	
+		--abort			отмена
 		HEAD 			отменить последний коммит
 		HEAD --no-edit		отменить последний коммит без редактирования
 		"hash_of_commit"	откатить до определенного коммита
 
 git rebase 	--continue
+		--skip
+git stash
