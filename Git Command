@@ -1,4 +1,3 @@
-git add 
 git init 
 git status 
 git remote add origin {url}
@@ -6,7 +5,10 @@ git push -u origin master
 man git
 
 ls
-git commit -m "comment"
+git add 	-ip			создать интеракитвный патч
+
+git commit	-m "comment"
+	  	-i 			интерактивный коммит
 
 git branch 				посмотреть все ветки	
 		"name_of_branch" 	создать ветку
@@ -14,7 +16,8 @@ git branch 				посмотреть все ветки
 		--marged(--no-marged)   посмотреть слитые и не слитые ветки
 		-d "name_of_branch"	удалить ветку
 
-git checkuot 	-b "name_of_branch"	создать и переключится на ветку
+git checkuot 	-av			(all verbose)
+		-b "name_of_branch"	создать и переключится на ветку
 		"name_of_branch"	переключится на ветку
 		"hash_of_commit"	перейти к коммиту
 
