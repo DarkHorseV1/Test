@@ -1,8 +1,10 @@
 git init 
 git status 
 git remote add origin {url}
-git push -u origin master
-man git
+
+git push 	-u origin master
+		--force-with-lease	для "правки истории", если есть изменеия в онлайн репозитории, то выдаст ошибку
+		--fosre			затирает изменения (НЕ РЕКОМЕНДУЕТСЯ ИСПОЛЬЗОВАТЬ СОВМЕСТНОЙ РАБОТЕ)!!!
 
 ls
 git add 	-ip			создать интеракитвный патч
@@ -31,4 +33,6 @@ git revert
 
 git rebase 	--continue
 		--skip
-git stash
+git stash				сохранить изменения без добавления
+
+git reset 	--hard "commit id"	отмена мерджа и переход к определенному коммиту		
