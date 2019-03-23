@@ -17,14 +17,16 @@ git branch 				посмотреть все ветки
 		-v   			посмотреть последнии коммиты
 		--marged(--no-marged)   посмотреть слитые и не слитые ветки
 		-d "name_of_branch"	удалить ветку
+		-a			показать все имеющиеся ветки
 
 git checkuot 	-av			(all verbose)
 		-b "name_of_branch"	создать и переключится на ветку
 		"name_of_branch"	переключится на ветку
+		
 		"hash_of_commit"	перейти к коммиту
-
 		"hash_of_commit" -b "name_of_branch" перейти к коммиту создав новую ветку
 
+		-- "file_name"		отменить изменения файла
 git revert	
 		--abort			отмена
 		HEAD 			отменить последний коммит
