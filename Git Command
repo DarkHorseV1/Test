@@ -10,7 +10,6 @@ ls
 git add 	-ip			создать интеракитвный патч
 
 git commit	-m "comment"
-	  	+i 			интерактивный коммит
 
 git branch 				посмотреть все ветки	
 		"name_of_branch" 	создать ветку
@@ -35,6 +34,10 @@ git revert
 
 git rebase 	--continue
 		--skip
+		
+		-i			интерактивный ребейз
+		-i HEAD~4		изменить историю последних 4 коммитов
+		
 git stash				сохранить изменения без добавления
 
 git reset 	--hard "commit id"	отмена мерджа и переход к определенному коммиту		
